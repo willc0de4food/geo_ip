@@ -1,5 +1,6 @@
-require 'json'
+require 'Net::HTTP'
 require 'rest-client'
+require 'resolv'
 
 class GeoIp
   class InvalidPrecissionError < ArgumentError; end
