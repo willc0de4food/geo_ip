@@ -1,4 +1,4 @@
-require 'json'
+require 'net/http'
 require 'rest-client'
 require 'resolv'
 
